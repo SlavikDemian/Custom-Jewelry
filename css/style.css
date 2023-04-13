@@ -67,19 +67,15 @@
 .first_section {
     background-image: url("../images/image_1.jpg");
     background-size: cover;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 100px);
     position: relative;
 
 }
 .first_section_text {
     width: 219px;
     position: absolute;
-    left: 20%;
+    left: 10%;
     bottom: 20%;
-    display: flex;
-    flex-direction: column; /*?????????*/
-
-
 }
 .first_section_text h1 {
     font-family: 'Roboto', sans-serif;
@@ -110,5 +106,162 @@
     text-decoration: none;
     background-color: #CFE1E7;
     border-radius: 20px;
-    padding: 8px 40px;
+    padding: 8px 0px;
+    max-width: 170px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.first_section_book {
+    position: absolute;
+    right: 10%;
+    bottom: 18%;
+    width: 226px;
+}
+.first_section_book a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background-color: #CFE1E7;
+    padding: 9px 0px;
+    max-width: 226px;
+    display: flex;
+    justify-content: center;
+}
+.first_section_reviews {
+    width: 47px;
+    height: 116px;
+    background-color: #F0C1A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 35%;
+}
+.first_section_reviews a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    text-decoration: none;
+}
+
+/* Wedding & Engagement */
+
+.wedding {
+    padding: 0 60px;
+}
+.container {
+    padding: 50px 0;
+}
+.container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    color: #000000;
+}
+.container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin: 14px 0 50px 0;
+}
+.wedding_box_images {
+    display: flex;
+    justify-content: space-around;
+
+}
+.wedding_box_images a {
+    text-decoration: none;
+}
+.wedding_box_images a p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-top: 22px;
+}
+
+/* An Ethical Approach */
+
+.ethical {
+    min-height: 570px;
+    background-color: #98B7A4;
+    position: relative;
+}
+.ethical_img {
+    background-image: url("../images/ethical.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.ethical_article_container {
+    max-width: 1050px;
+
+}
+.ethical_container {
+    max-width: 449px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ethical_container h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    color: #000000;
+}
+.ethical_container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+.ethical_container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+.ethical_container a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background-color: #F9F6F0;
+    border-radius: 20px;
 }
