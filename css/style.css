@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* HEADER */
+.header_reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CFE1E7;
+    height: 40px;
+}
+.header_reviews a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #111111;
+    margin-right: 30px;
+}
+.navigation {
+    padding: 0px 20px;
+    background-color: #F9F6F0;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.navigation_box {
+    max-width: 770px;
+    margin: auto;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.navigation_box ul {
+    display: flex;
+    /*justify-content: center;*/
+    list-style: none;
+}
+.navigation_box ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.28px;
+    color: #000000;
+    margin-right: 60px;
+}
+.navigation a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+/* MAIN */
+
+/* First section*/
+
+.first_section {
+    background-image: url("../images/image_1.jpg");
+    background-size: cover;
+    height: calc(100vh - 120px);
+    position: relative;
+
+}
+.first_section_text {
+    width: 219px;
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    display: flex;
+    flex-direction: column; /*?????????*/
+
+
+}
+.first_section_text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 2px;
+}
+.first_section_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #111111;
+    margin-bottom: 21px;
+}
+.first_section_text a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background-color: #CFE1E7;
+    border-radius: 20px;
+    padding: 8px 40px;
+}
