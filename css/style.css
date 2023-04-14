@@ -184,7 +184,6 @@
 .wedding_box_images {
     display: flex;
     justify-content: space-around;
-
 }
 .wedding_box_images a {
     text-decoration: none;
@@ -230,7 +229,6 @@
     right: 10%;
     top: 0;
 }
-
 .ethical_container h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -261,7 +259,6 @@
 }
 .ethical_container a {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -275,4 +272,63 @@
     justify-content: center;
     max-width: 170px;
     margin: auto;
+}
+
+/*  List of advantages */
+
+.list_advantages ul{
+    display: flex;
+    justify-content: space-around;
+}
+.list_advantages ul li {
+    list-style: none;
+}
+.list_advantages ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    color: #373938;
+}
+
+/*  About Us  */
+
+.about_us {
+    background-color: #E5DFD3;
+    padding: 79px 125px 103px ;
+    position: relative;
+    z-index: 1;
+}
+.about_us p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    color: #000000;
+    margin-bottom: 235px;
+}
+.about_us h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+}
+.about_us img:nth-child(1) {
+    position: absolute;
+    left: 47%;
+    top: 28%;
+    z-index: -1
+}
+.about_us img:nth-child(2) {
+    position: absolute;
+    left: 32%;
+    top: 50%;
+    z-index: -1;
 }
